@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { DragDropContext } from '@hello-pangea/dnd'
 import { v4 as uuidv4 } from 'uuid'
 import Column from './Components/Column'
-import initialData from './initialData'
+import InitialData from './InitialData'
 
 function App() {
 
