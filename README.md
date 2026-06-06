@@ -1,4 +1,5 @@
 📋 Kanban Board
+
 A drag-and-drop task management board built with React. Organize tasks across columns — To Do, In Progress, Review, and Done. Board data persists across page refreshes using localStorage.
 
 ✨ Features
@@ -31,6 +32,7 @@ Show Image
 | localStorage | Saving board data in the browser |
 
 📁 Project Structure
+
 kanban-board/
 ├── src/
 │   ├── components/
@@ -44,6 +46,7 @@ kanban-board/
 └── package.json
 
 🚀 Run Locally
+
 Prerequisites: Node.js v18+
 bash# Clone the repo
 git clone https://github.com/student-Always-sn/taskflow-kanban-board.git
@@ -62,6 +65,7 @@ npm run build
 Deploy by dragging the dist/ folder to Netlify — free hosting in 2 minutes.
 
 💡 How It Works
+
 Data structure
 Columns and cards are stored separately. Each column only holds a list of card IDs — not the card data itself. This keeps drag-and-drop simple: moving a card means moving its ID from one column's array to another.
 js{
