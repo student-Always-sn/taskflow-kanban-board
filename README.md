@@ -47,7 +47,7 @@ kanban-board/
 
 ## Live Demo
 
-🔗 [View Live](taskflow-kanban-board-6qu1.vercel.app)
+🔗 [View Live](https://taskflow-kanban-board-6qu1.vercel.app/)
 
 
 🚀 Run Locally
