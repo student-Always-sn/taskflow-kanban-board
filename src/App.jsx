@@ -11,10 +11,10 @@ function App() {
     try {
       const saved = localStorage.getItem('kanban-board-data')
       
-      return saved ? JSON.parse(saved) : initialData
+      return saved ? JSON.parse(saved) : InitialData
     } catch {
       
-      return initialData
+      return InitialData
     }
   })
 
@@ -194,7 +194,7 @@ function App() {
         <button
           onClick={() => {
             localStorage.removeItem('kanban-board-data')
-            setData(initialData)
+            setData(InitialData)
           }}
           className="text-xs text-gray-600 hover:text-red-400 transition-colors px-3 py-1.5 rounded-lg hover:bg-red-950/30 border border-transparent hover:border-red-900/50"
         >
