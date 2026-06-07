@@ -5,11 +5,17 @@ A drag-and-drop task management board built with React. Organize tasks across co
 ✨ Features
 
 Drag and drop — move cards between columns or reorder within a column
+
 Add cards — click "+ Add card" in any column, type a task, pick a label
+
 Label badges — colour-coded tags (Feature, Bug, Backend, Design, Testing, Deploy)
+
 Persistent data — everything saved in localStorage, survives page refresh
+
 Editable board title — click the title to rename your board
+
 Live card count — each column shows how many cards it has
+
 Keyboard shortcuts — press Enter to save a card, Escape to cancel
 
 
