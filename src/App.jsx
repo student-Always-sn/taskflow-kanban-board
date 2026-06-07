@@ -40,12 +40,11 @@ function App() {
 
     
     setData(prev => ({
-      ...prev,        
-
-      
+      ...prev,              
       cards: {
         ...prev.cards,                          
-        [newCardId]: {                          
+        [newCardId]: { 
+          id: newCardId,                         
           text: text,
           label: label,
         }
@@ -212,7 +211,9 @@ function App() {
             
             const column = data.columns[columnId]
 
-            const cards = column.cardIds.map(cardId => data.cards[cardId])
+            const cards = column.cardIds
+            .map(cardId => data.cards[cardId])
+            .filter(Boolean)
 
             return (
               <Column
