@@ -45,6 +45,11 @@ kanban-board/
 ├── vite.config.js
 └── package.json
 
+## Live Demo
+
+🔗 [View Live](https://taskflow-kanban-board-6qu1.vercel.app/)
+
+
 🚀 Run Locally
 
 Prerequisites: Node.js v18+
